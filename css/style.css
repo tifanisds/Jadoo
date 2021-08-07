@@ -1,0 +1,136 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-image: url(../img/bg.png);
+    background-position: right 220px top;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+body::before {
+    content: "";
+    height: 726px;
+    position: absolute;
+    width: 220px;
+    background-color: #FEF0D9;
+    top: 0;
+    right: 0;
+    z-index: -1;
+}
+
+.container {
+    max-width: 1182px;
+    margin: 0 auto;
+}
+
+header {
+    height: 132px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 114px;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu ul li {
+    margin-left: 66px;
+}
+
+.menu ul li a {
+    color: #212832;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.sign-up a {
+    padding: 15px 20px;
+    border: 1px solid #212832;
+    border-radius: 5px;
+}
+
+.hero {
+    width: 100%;
+    height: 764px;
+    background-image: url(../img/woman.png);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: top;
+    padding-top: 112px;
+}
+
+h3 {
+    font-size: 20px;
+    color: #DF6951;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 70px;
+    color: #181E4B;
+    width: 509px;
+    margin-top: 40px;
+}
+
+.hero p {
+    font-size: 16px;
+    font-weight: bold;
+    color: #5E6282;
+    width: 477px;
+    margin-top: 50px;
+    margin-bottom: 38px;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+}
+
+.buttons a.btn-find-more {
+    font-size: 18px;
+    font-weight: bold;
+    color: #FFFFFF;
+    padding: 23px 31px;
+    background-color: #F1A501;
+    border-radius: 10px;
+    text-decoration: none;
+    margin-right: 44px;
+}
+
+.buttons .btn-play-demo {
+    display: flex;
+    align-items: center;
+    font-size: 17px;
+    font-weight: bold;
+    color: #686D77;
+    text-decoration: none;
+}
+
+.buttons a.btn-play-demo .play-icon {
+    width: 52px;
+    height: 52px;
+    background-color: #DF6951;
+    border-radius: 26px;
+    display: flex;
+    justify-content: center;
+    margin-right: 21px;
+}
+
+.play-icon img {
+    width: 15px;
+}
